@@ -22,9 +22,9 @@ class UI {
                 <div class="card-body card-body-cascade text-center">
             
                 <!-- Title -->
-                    <h4 class="card-title"><strong>Billy Coleman</strong></h4>
+                    <h4 class="card-title"><strong>${user.name}</strong></h4>
                     <!-- Subtitle -->
-                    <h6 class="font-weight-bold indigo-text py-2">Web developer</h6>
+                    <h6 class="font-weight-bold indigo-text py-2">${user.title}</h6>
                     <div class="preview pb-4">
 
                         <span class="badge badge-default">Public Repos : ${user.public_repos}</span>
